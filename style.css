@@ -266,6 +266,7 @@ section {
 
   .image {
     grid-area: 1/1/2/2;
+     margin-top:15px;
   }
 
   .action-btns {
