@@ -132,9 +132,9 @@ section {
 
 .name span {
   font-size: 2rem;
-  color: #2691cf;
+  color: #0d85b4;
   position: relative;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .subtitle {
@@ -146,10 +146,11 @@ section {
 .title {
   font-size: 25px;
   font-weight: bold;
+  color: rgba(12, 11, 11, 0.753);
 }
 
 #typing {
-  color: rgba(34, 4, 170, 0.795);
+  color: rgba(236, 10, 134, 0.993);
   border-right: 2px solid #333;
   padding-right: 5px;
   animation: blink 0.6s infinite;
@@ -480,8 +481,9 @@ section {
 }
 @media (max-width: 1024px) {
   .about-section h2 {
-    padding-top: 2rem;
+    padding-top: 0;
     padding-bottom: 1.5rem;
+    font-size: 2.5rem;
   }
 
   .about-container {
@@ -565,6 +567,9 @@ section {
     justify-content: center;
     text-align: justify;
     padding: 0;
+  }
+  .resume h1{
+    font-size: 2.5rem;
   }
 }
 
@@ -678,6 +683,9 @@ section {
     width: 100%;
     margin-top: 1.5rem;
   }
+  #Project-heading {
+    font-size: x-large;
+  }
 }
 
 /* ///////////experience////////////// */
@@ -752,6 +760,9 @@ p {
   P {
     text-align: justify;
   }
+  .experience{
+    font-size:x-large
+  }
 }
 
 /* ///////////////////////Resume Button////////////////////// */
@@ -775,6 +786,13 @@ p {
 
 .resume-button:hover {
   background-color: #6851eb;
+}
+@media(max-width:770px){
+  .resume-button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5px;
+      }
 }
 
 /*/////////////////////////////Contact me///////////////////////////////////////// */
@@ -910,6 +928,10 @@ hr {
     flex-direction: column;
     text-align: center;
     margin: 10px;
+  }
+  .contact-left h2{
+  font-size:2.5rem;
+ 
   }
 
   .contact-left,

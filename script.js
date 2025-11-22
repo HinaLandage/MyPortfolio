@@ -87,12 +87,11 @@ function typeAnimation() {
   const currentRole = roles[roleIndex];
 
   if (!isDeleting) {
-    // Typing
     typingEl.textContent = currentRole.substring(0, charIndex + 1);
     charIndex++;
 
     if (charIndex === currentRole.length) {
-      setTimeout(() => (isDeleting = true), 1000); // wait before deleting
+      setTimeout(() => (isDeleting = true), 1000);
     }
   } else {
     // Deleting
