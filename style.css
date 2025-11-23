@@ -142,14 +142,10 @@ section {
   font-size: 1.5rem;
 }
 
-/* Typing animation*/
-.title {
-  font-size: 25px;
-  font-weight: bold;
-  color: rgba(12, 11, 11, 0.753);
-}
-
 #typing {
+  display: inline-block;
+
+  word-wrap: break-word;
   color: rgba(236, 10, 134, 0.993);
   border-right: 2px solid #333;
   padding-right: 5px;
@@ -266,7 +262,7 @@ section {
 
   .image {
     grid-area: 1/1/2/2;
-     margin-top:15px;
+    margin-top: 15px;
   }
 
   .action-btns {
@@ -384,7 +380,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .skill-container:hover {
-  transform: translateY(-8px); /* Slight lift effect */
+  transform: translateY(-8px); 
 }
 
 .container {
@@ -569,7 +565,7 @@ section {
     text-align: justify;
     padding: 0;
   }
-  .resume h1{
+  .resume h1 {
     font-size: 2.5rem;
   }
 }
@@ -761,8 +757,8 @@ p {
   P {
     text-align: justify;
   }
-  .experience{
-    font-size:x-large
+  .experience {
+    font-size: x-large;
   }
 }
 
@@ -788,12 +784,12 @@ p {
 .resume-button:hover {
   background-color: #6851eb;
 }
-@media(max-width:770px){
-  .resume-button{
+@media (max-width: 770px) {
+  .resume-button {
     padding: 10px 20px;
     font-size: 1rem;
     margin-top: 5px;
-      }
+  }
 }
 
 /*/////////////////////////////Contact me///////////////////////////////////////// */
@@ -930,9 +926,8 @@ hr {
     text-align: center;
     margin: 10px;
   }
-  .contact-left h2{
-  font-size:2.5rem;
- 
+  .contact-left h2 {
+    font-size: 2.5rem;
   }
 
   .contact-left,
